@@ -1,0 +1,37 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/ssr/_23a389._.js",
+        "server/edge/chunks/ssr/src_middleware_ts_9f486c._.js",
+        "server/edge/chunks/ssr/edge-wrapper_6f063d.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "locale": false,
+          "originalSource": "/((?!.*\\..*|_next).*)"
+        },
+        {
+          "locale": false,
+          "originalSource": "/"
+        },
+        {
+          "locale": false,
+          "originalSource": "/(api|trpc)(.*)"
+        }
+      ],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "jVnKTMa38bJmn4CYph50LjQ9Gu8CBTjTdT43Q64IpQs=",
+        "__NEXT_PREVIEW_MODE_ID": "baa106682f823cf06e5b6b20ad30c041",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "efdcf2f29149181d3a9588f5b8d1f5da3fe5fb26192a098dfe1d5b965f8deb10",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "97332ef5389bcd3658683e8f010c7e338fc98254b569706e31dc2601f0880eea"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}
